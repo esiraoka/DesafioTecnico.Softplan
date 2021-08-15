@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesafioTecnico.Softplan.Domain.CalculaJuros\DesafioTecnico.Softplan.Domain.CalculaJuros.csproj" />
+    <ProjectReference Include="..\DesafioTecnico.Softplan.Infra.CalcularJuros\DesafioTecnico.Softplan.Infra.CalcularJuros.csproj" />
+  </ItemGroup>
+
+</Project>

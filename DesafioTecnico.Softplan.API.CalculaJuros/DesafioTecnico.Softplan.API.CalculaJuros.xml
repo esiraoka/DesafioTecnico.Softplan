@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesafioTecnico.Softplan.API.CalculaJuros</name>
+    </assembly>
+    <members>
+        <member name="M:DesafioTecnico.Softplan.API.CalculaJuros.Controllers.V1.CalculaJurosController.CalcularJuros(System.Decimal,System.Int32)">
+            <summary>
+            Calcula os juros baseado no valor e meses informados.
+            </summary>
+            <param name="valor">Valor Inicial</param>
+            <param name="meses">Meses para calcular os juros compostos</param>
+            <returns>Valor calculado com os juros</returns>
+            <response code="200">Valor calculado</response>
+        </member>
+    </members>
+</doc>

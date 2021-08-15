@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesafioTecnico.Softplan.API.Juros</name>
+    </assembly>
+    <members>
+        <member name="M:DesafioTecnico.Softplan.API.Juros.Controllers.V1.JurosController.BuscarUltimoJurosCadastrado">
+            <summary>
+            Exibe o valor do último juros cadastrado.
+            </summary>
+            <returns> Retorna o valor do último juros cadastrado. Ex: Se 1%, o retorno será: 0,01</returns>
+            <response code="200">Valor calculado</response>
+            <response code="500">Erro interno no servidor</response>
+            <response code="400">Parâmetros incorretos</response>
+        </member>
+        <member name="M:DesafioTecnico.Softplan.API.Juros.Controllers.V1.JurosController.CadastrarTaxadeJuros(System.Decimal)">
+            <summary>
+            Cadastra a taxa de juros.
+            </summary>
+            <param name="taxaJuros">Taxa de juros em porcentagem que deseja cadastrar.</param>
+            <response code="200">Valor calculado</response>
+            <response code="500">Erro interno no servidor</response>
+            <response code="400">Parâmetros incorretos</response>
+        </member>
+    </members>
+</doc>

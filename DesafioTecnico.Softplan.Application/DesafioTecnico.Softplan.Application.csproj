@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesafioTecnico.Softplan.Domain\DesafioTecnico.Softplan.Domain.csproj" />
+    <ProjectReference Include="..\DesafioTecnico.Softplan.Infra\DesafioTecnico.Softplan.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
