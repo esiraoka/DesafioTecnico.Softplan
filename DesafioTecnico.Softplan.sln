@@ -37,7 +37,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioTecnico.Softplan.Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioTecnico.Softplan.Test.Juros", "DesafioTecnico.Softplan.Test.Juros\DesafioTecnico.Softplan.Test.Juros.csproj", "{649F4DB8-1F07-45A3-A8DC-8A01D2C8C108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioTecnico.Softplan.TestUnidade.CalculaJuros", "DesafioTecnico.Softplan.TestUnidade.CalculaJuros\DesafioTecnico.Softplan.TestUnidade.CalculaJuros.csproj", "{6CDE58D5-7DB9-4F66-AB59-C019B589AC9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioTecnico.Softplan.TestUnidade.CalculaJuros", "DesafioTecnico.Softplan.TestUnidade.CalculaJuros\DesafioTecnico.Softplan.TestUnidade.CalculaJuros.csproj", "{6CDE58D5-7DB9-4F66-AB59-C019B589AC9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.0 - Documentacao", "5.0 - Documentacao", "{E80BD087-EB66-466A-B8F4-DDBEF2782319}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\Documents\Documentacao_TesteTecnico.docx = ..\..\..\..\..\Documents\Documentacao_TesteTecnico.docx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
